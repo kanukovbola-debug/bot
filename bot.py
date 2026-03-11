@@ -11,10 +11,10 @@ BOT_TOKEN = os.getenv('BOT_TOKEN', 'ТОКЕН')
 # 5 шаг - userinfobot
 ADMIN_ID = os.getenv('ADMIN_ID', 'ID')
 # https://render.com/
-RAINWAY_URL = os.getenv('RENDER_EXTERNAL_URL', 'https://домен.onrender.com')
+RAILWAY_URL = os.getenv("RAILWAY_PUBLIC_DOMAIN")
 # webhook
 WEBHOOK_PATH = "/webhook"
-WEBHOOK_URL = f"{RAIL_WAY_URL}{WEBHOOK_PATH}"
+WEBHOOK_URL = f"{RAILWAY_URL}{WEBHOOK_PATH}"
 # модуль чтобы видеть ошибки
 import logging
 # показывать сообщения уровня INFO - информация, предупреждения, ошибки
